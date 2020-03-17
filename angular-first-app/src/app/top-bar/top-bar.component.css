@@ -1,0 +1,23 @@
+a {
+    text-decoration: none;
+}
+
+a h1 {
+    background-color: #1976d2;
+    color: white;
+    position: relative;
+    width: 105%;
+    left: -2%;
+    margin-top: -10px;
+    padding: 20px 0px 20px 50px;
+}
+
+a:nth-child(2) {
+    position: relative;
+    top: -75px;
+    left: 200px;
+    background-color: white;
+    padding: 15px;
+    color: #1976d2;
+    border-radius: 10px;
+}
