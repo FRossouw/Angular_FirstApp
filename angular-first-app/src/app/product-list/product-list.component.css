@@ -1,0 +1,29 @@
+#products {
+    width: 30%;
+    position: relative;
+    left: 40%;
+    border: 1px solid #1976d2;
+}
+
+#products h2 {
+    margin-top: 0px;
+    background-color: #1976d2;
+    padding: 20px;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}
+
+#products div  {
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid #1976d2;
+}
+
+#products div h3 {
+    margin-top: 0px;
+    text-transform: uppercase;
+    color: #1976d2;
+    text-decoration: underline;
+    font-weight: bold;
+}
