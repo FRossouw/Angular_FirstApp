@@ -19,9 +19,6 @@ jobs:
       - run:
           name: Build
           command: ./node_modules/@angular/cli/bin/ng build --prod
-      - run:    
-          name: Firebase Deploy
-          command: firebase deploy --token "$FIREBASE_TOKEN"
 workflows:
     build-and-test:
       jobs:
