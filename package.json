@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "pretest": "eslint --ignore-path .gitignore protractor.config.js ."
+    "pretest": "eslint --ignore-path ."
   },
   "private": true,
   "dependencies": {
