@@ -18,6 +18,8 @@ The app is modelled after https://angular.io/start.
 ### 02 Step
 5. Added Routing to each product description page
 6. Added firebase hosting
+7. Added Eslint and Circle CI
+8. Removed Firebase Deploy from config.yml
 
 ## To be continued in the next step.
 
