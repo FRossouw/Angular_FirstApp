@@ -11,11 +11,14 @@ jobs:
           steps:
             - run: npm install
       - run:
-          name: Eslint
+          name: Eslint Install
           command: npm install --save-dev eslint eslint-config-strongloop
       - run:
-          name: Eslint
+          name: Eslint Pretest
           command: npm run pretest
+      - run:
+          name: Build App
+          command: ng build
 workflows:
     build-and-test:
       jobs:
