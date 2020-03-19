@@ -17,8 +17,8 @@ jobs:
           name: Eslint Pretest
           command: npm run pretest
       - run:
-          name: Build App
-          command: ng build
+          name: Build
+          command: ./node_modules/@angular/cli/bin/ng build --prod
 workflows:
     build-and-test:
       jobs:
