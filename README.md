@@ -1,6 +1,6 @@
 # My first angular APP.
 
-[![CircleCI](https://circleci.com/gh/FRossouw/Angular_FirstApp/tree/eslint.svg?style=svg)](https://circleci.com/gh/FRossouw/Angular_FirstApp/tree/eslint)
+[![CircleCI](https://circleci.com/gh/FRossouw/Angular_FirstApp/tree/development.svg?style=svg)](https://circleci.com/gh/FRossouw/Angular_FirstApp/tree/development)
 
 ## Website link:
 https://angular01-5266d.firebaseapp.com/
