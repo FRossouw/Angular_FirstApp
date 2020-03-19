@@ -10,10 +10,12 @@ jobs:
       - node/with-cache:
           steps:
             - run: npm install
-            - run: npm install @angular/cli
-            - run: ng lint
-            - run: ng build
-            - run: ng deploy
+      - run:
+          name: Eslint
+          command: npm install --save-dev eslint eslint-config-strongloop
+      - run:
+          name: Eslint
+          command: npm run pretest
 workflows:
     build-and-test:
       jobs:
